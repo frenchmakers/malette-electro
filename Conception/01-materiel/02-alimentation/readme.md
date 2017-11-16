@@ -26,3 +26,17 @@ Soudure de la prise
 Soudure de deux cables sur les pin 16 et 17, reliés à un interrupteur. 
 
 ![Mise en place de l'interrupteur](connection-interrupteur.jpg)
+
+## Alimentation de l'arduino
+
+Récupération d'un cable d'une alimentation secteur, recherche du positif qui est la broche **intérieure** de la prise jack.
+
+Lorsque l'arduino est alimenté par le régulateur, il faut lui transmettre une tension conseillée entre 7V et 12V (les limites sont 6V et 20V). On branche donc le cable sur une sortie 12V de l'alimentation.
+
+Dans notre cas on a utilisé la broche 10 (12V) et la broche 7 pour la masse.
+
+![Connecteur arduino](alimentation-arduino-1.jpg)
+
+![Connecteur arduino](alimentation-arduino-2.jpg)
+
+

@@ -27,7 +27,7 @@ Soudure de deux cables sur les pin 16 et 17, reliés à un interrupteur.
 
 ![Mise en place de l'interrupteur](connection-interrupteur.jpg)
 
-## Alimentation de l'arduino
+## Alimentation de l'Arduino
 
 Récupération d'un cable d'une alimentation secteur, recherche du positif qui est la broche **intérieure** de la prise jack.
 
@@ -35,8 +35,26 @@ Lorsque l'arduino est alimenté par le régulateur, il faut lui transmettre une 
 
 Dans notre cas on a utilisé la broche 10 (12V) et la broche 7 pour la masse.
 
-![Connecteur arduino](alimentation-arduino-1.jpg)
+![Alimentation arduino](alimentation-arduino-1.jpg)
 
-![Connecteur arduino](alimentation-arduino-2.jpg)
+![Alimentation arduino](alimentation-arduino-2.jpg)
 
+
+## Alimentation du Raspberry Pi
+
+Les Rapsberry Pi sont alimentés avec du 5V.
+
+Récupération d'un cable USB/micro USB.
+
+![Alimentation Raspberry](alimentation-raspberry-1.jpg)
+
+On coupe la prise USB, on dénude les fil rouge (+5V) et noir (masse).
+
+![Alimentation Raspberry](alimentation-raspberry-2.jpg)
+
+On branche nos fils sur les broches 6 (+5V) et 5 (masse).
+
+![Alimentation Raspberry](alimentation-raspberry-3.jpg)
+
+![Alimentation Raspberry](alimentation-raspberry-4.jpg)
 

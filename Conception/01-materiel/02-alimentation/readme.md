@@ -58,3 +58,11 @@ On branche nos fils sur les broches 6 (+5V) et 5 (masse).
 
 ![Alimentation Raspberry](alimentation-raspberry-4.jpg)
 
+## Mise en place de l'interrupteur et alimentation
+
+Percage de la coque pour placer un interrupteur avec prise d'alimentation.
+
+![Interrupteur](interrupteur-1.jpg)
+
+![Interrupteur](interrupteur-2.jpg)
+
